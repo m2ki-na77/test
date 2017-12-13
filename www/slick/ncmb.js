@@ -17,9 +17,12 @@
             query.find({
               success: function(results) {
                   // Get a random image name of the picture from the class "randomFortune" in NCMB  
-                  var image_name = results[Math.floor(Math.random()*results.length)].get("image");
-                  var image_name2 = results[Math.floor(Math.random()*results.length)].get("image");
-                  var image_name3 = results[Math.floor(Math.random()*results.length)].get("image");
+                  var num = Math.floor(Math.random()*results.length);
+                  var image_name = results[num].get("Image");
+                  var image_name = results[num - Math.floor(Math.random()*num)].get("image");
+                  var image_name2 = results[num - Math.floor(Math.random()*num)].get("image");
+                  var image_name3 = results[num - Math.floor(Math.random()*num)].get("image");
+
 
                   // Change the css styles and srcs according to the omiukji states  
                   //document.getElementById("test1").src = commonURL +image_name;
