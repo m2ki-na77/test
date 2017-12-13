@@ -1,4 +1,5 @@
 /* Slider */
+
 .slick-slider
 {
     position: relative;
@@ -127,6 +128,7 @@
     
 }
 
+/*メニュー*/
 
 #nav {
   position: fixed;
