@@ -1,4 +1,5 @@
 // This is a JavaScript file
+// Gitテストするよ
 
 // information of this app
         var appkey = "7fcd59253396d6ec6d86c321bdfbcb7cc19905f698e6e899e814d9e514628a89";
