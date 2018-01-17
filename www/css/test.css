@@ -2,11 +2,18 @@ button{
     display: none;
 }
 
+
+
+.top {
+    width: 60%;
+    height: 60%;
+    margin-left:72px ;
+    margin-top: 110px;
+}
+
 body{
+    background-image: url("/www/image/top.jpg");
+    background-size: 100% auto;
     background-color: black;
 }
 
-body2 {
-    background-image: url(/www/image/haikei.png);
-    background-size: auto;
-}
