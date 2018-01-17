@@ -56,7 +56,7 @@
                   $(".img5").attr("src",commonURL + image_name5);
                   $(".img6").attr("src",commonURL + image_name6);
                   $(".img7").attr("src",commonURL + image_name7);
-                  $(".modalMain").html("<h4>"+image_title+"</h4>"+image_cap+"</br><h4>"+image_title2+"</h4>"+image_cap2+"</br><h4>"+image_title3+"</h4>"+image_cap3+"</br><h4>"+image_title4+"</h4>"+image_cap4+"</br><h4>"+image_title5+"</h4>"+image_cap5+"</br><h4>"+image_title6+"</h4>"+image_cap6+"</br><h4>"+image_title7+"</h4>"+image_cap7+"</br>");
+                  $(".modalMain").html("<h4>"+image_title+"</h4>"+image_cap+"</br><h4>"+image_title2+"</h4>"+image_cap2+"</br><h4>"+image_title3+"</h4>"+image_cap3+"</br><h4>"+image_title4+"</h4>"+image_cap4+"</br><h4>"+image_title5+"</h4>"+image_cap5+"</br><h4>"+image_title6+"</h4>"+image_cap6+"</br><h4>"+image_title7+"</h4>"+image_cap7+"</br><br><br><br><br>");
 
 
               },
