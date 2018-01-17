@@ -1,6 +1,12 @@
 button{
     display: none;
 }
+
 body{
     background-color: black;
+}
+
+body2 {
+    background-image: url(/www/image/haikei.png);
+    background-size: auto;
 }

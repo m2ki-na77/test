@@ -124,15 +124,29 @@
 .sample {
     
     margin: 20px;
-    margin-top: 190px;
+    margin-top: 220px;
     
 }
 
 /*メニュー*/
 
+
+
 .nav {
+  position: fixed;
+  list-style: none;
+  overflow: hidden;
   text-align: center;
 }
+
+
+
+.nav li {;
+  width: 83px;
+  height: 60px;
+  float:left;
+}
+
 
 
 /*トップページ*/
@@ -142,9 +156,7 @@
     height: 100%; 
 }
 
-.label {
-    font size: 100%;
-}
+
 
 
 
