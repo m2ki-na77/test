@@ -24,14 +24,19 @@
                   var num2 = num - Math.floor(Math.random()*num);
                   var image_name2 = results[num2].get("image");
                   var image_cap2 = results[num2].get("caption");
-                  var image_name3 = results[num - Math.floor(Math.random()*num)].get("image");
+                  var image_title2 = results[num2].get("name"); 
+                  var num3 = num - Math.floor(Math.random()*num);
+                  var image_name3 = results[num3].get("image");
+                  var image_cap3 = results[num3].get("caption");
+                  var image_title3 = results[num3].get("name"); 
+                  
                   
                   // Change the css styles and srcs according to the omiukji states  
                   //document.getElementById("test1").src = commonURL +image_name;
                   $(".img1").attr("src",commonURL + image_name);
                   $(".img2").attr("src",commonURL + image_name2);
                   $(".img3").attr("src",commonURL + image_name3);
-                  $(".modalMain").html("<h4>"+image_title+"</h4>"+image_cap+"</br><h4>"+image_title+"</h4>"+image_cap2+"</br>");
+                  $(".modalMain").html("<h4>"+image_title+"</h4>"+image_cap+"</br><h4>"+image_title2+"</h4>"+image_cap2+"</br><h4>"+image_title3+"</h4>"+image_cap3+"</br>");
 
 
               },
