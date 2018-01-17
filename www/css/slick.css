@@ -134,6 +134,8 @@
 
 .nav {
   position: fixed;
+  bottom:10px;
+  left:30px;
   list-style: none;
   overflow: hidden;
   text-align: center;
